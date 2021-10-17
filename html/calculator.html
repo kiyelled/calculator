@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>계산기</title>
+    <link rel="stylesheet" href="../css/cal-style.css"/>
+    <script src="calc.js"></script>
+</head>
+<body>
+    <div class="main-box">
+        <div class="put-num">
+            <input type="text" id="input">
+        </div>
+        <div class="put-num">
+            <input type="text" id="result">
+        </div>
+        <div class="button-box">
+            <div class="ac" onclick="reset()">
+                <p>AC</p>
+            </div>
+            <div class="buttons" onclick="add('/')">
+                <p>/</p>
+            </div>
+        </div>
+        <div class="button-box">
+            <div class="buttons" onclick="add(7)">
+                <p>7</p>
+            </div>
+            <div class="buttons" onclick="add(8)">
+                <p>8</p>
+            </div>
+            <div class="buttons" onclick="add(9)">
+                <p>9</p>
+            </div>
+            <div class="buttons" onclick="add('*')">
+                <p>*</p>
+            </div>
+        </div>
+        <div class="button-box">
+            <div class="buttons" onclick="add(4)">
+                <p>4</p>
+            </div>
+            <div class="buttons" onclick="add(5)">
+                <p>5</p>
+            </div>
+            <div class="buttons" onclick="add(6)">
+                <p>6</p>
+            </div>
+            <div class="buttons" onclick="add('-')">
+                <p>-</p>
+            </div>
+        </div>
+        <div class="button-box">
+            <div class="buttons" onclick="add(1)">
+                <p>1</p>
+            </div>
+            <div class="buttons" onclick="add(2)">
+                <p>2</p>
+            </div>
+            <div class="buttons" onclick="add(3)">
+                <p>3</p>
+            </div>
+            <div class="buttons" onclick="add('+')">
+                <p>+</p>
+            </div>
+        </div>
+        <div class="button-box">
+            <div class="zero" onclick="add(0)">
+                <p>0</p>
+            </div>
+            <div class="buttons" onclick="add('.')">
+                <p>.</p>
+            </div>
+            <div class="buttons" onclick="calculate('=')">
+                <p>=</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

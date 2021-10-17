@@ -1,0 +1,69 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.main-box {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    width: 280px;
+    height: 420px;
+}
+.put-num {
+    background-color: white;
+    margin: 5px 0;
+    display: flex;
+    justify-items: center;
+    width: 280px;
+    height: 50px;
+}
+input {
+    text-align: right;
+    border: none;
+    width: 270px;
+    height: 40px;
+    font-size: 20px;
+}
+input:focus {
+    outline: none;
+}
+.button-box {
+    margin: 5px 0;
+    width: 280px;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.button-box .ac {
+    background-color: white;
+    width: 207.5px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.button-box .zero {
+    background-color: white;
+    width: 135px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.button-box .buttons {
+    cursor:pointer;
+    background-color: white;
+    width: 62px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+p {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Agency FB";
+}
